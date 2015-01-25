@@ -54,6 +54,8 @@ function create() {
         .keyboard.addKey(Phaser.Keyboard.SPACEBAR)
         .onDown.add(moveUp);
 
+
+
     game.input
         .keyboard.addKey(Phaser.Keyboard.DOWN)
         .onDown.add(moveDown);
